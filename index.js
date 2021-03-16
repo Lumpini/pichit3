@@ -121,55 +121,55 @@ var options = {
          }else if(beacon_id == "014b5bacd7"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 หจก.หลิมศิริวงษ์พาณิชย์ ปั๊มหลิมศิริวงศ"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ร้านทองเซ่งเฮงล้ง"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b611b9b"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 ร้านทองวิไล"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b61b4bb"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 สนามกีฬากลางจังหวัดพิจิตร"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b64fe43"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 สหแสงชัย"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b667011"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 สถานีรถไฟพิจิตร"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b678737"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 ร้าน ต.รวมกิจ"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b6f44f6"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 ตลาดร่วมเจริญสะพานขาว"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b733d54"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 ตลาดใหม่สระหลวง"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b7388e7"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "สวัสดีคุณ"+" " +name +" " + "ว.10 สถานีขนส่งผู้โดยสารจังหวัดพิจิตร"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }
