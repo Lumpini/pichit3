@@ -107,12 +107,14 @@ var options = {
     if (!error && response.statusCode == 200) {
         var info = JSON.parse(body);
         name = info.displayName;
+        now = new Date();
+  formattedDate = Utilities.formatDate(new Date(), "Asia/Bangkok", "HH:mm:ss น.");
       
         
           if(beacon_id == "014b58a63f"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 หจก.หลิมศิริวงษ์พาณิชย์ (ปั๊มหลิมศิริวงศ์)"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 หจก.หลิมศิริวงษ์พาณิชย์ (ปั๊มหลิมศิริวงศ์)"+now
           
                    
 
