@@ -116,7 +116,6 @@ var options = {
            "text": "เมืองทราบ"+" " +name +" " + "ว.10 หจก.หลิมศิริวงษ์พาณิชย์ (ปั๊มหลิมศิริวงศ์)"
           
                    
-
           }; 
         reply(reToken, msg, sende_r, beacon_id);    
          }else if(beacon_id == "014b5bacd7"){
