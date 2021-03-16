@@ -75,7 +75,7 @@ console.log('-----ปริ้นทั้งหมด-----' + JSON.stringify(da
 function data_enter(sende_r, beacon_id) {
 
 
-   var checktime = "https://script.google.com/macros/s/AKfycbygktL_JBc6vC2PJpP09KsbzglZ_Tpd9FINDSxF/exec?userId="+sende_r+"&beaconid="+beacon_id;
+   var checktime = "https://script.google.com/macros/s/AKfycbx5rSDe_Q63snoj2XN0R-cV-aDLjWsgOG61nxe_/exec?userId="+sende_r+"&beaconid="+beacon_id;
  request(checktime, function (error, response, body) {
 
 })
@@ -107,17 +107,66 @@ var options = {
     if (!error && response.statusCode == 200) {
         var info = JSON.parse(body);
         name = info.displayName;
+        now = new Time();
         
-          if(beacon_id == "01489f0f1c"){
+          if(beacon_id == "014b58a63f"){
          var msg = {
            "type": "text",
-           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 หจก.หลิมศิริวงษ์พาณิชย์ (ปั๊มหลิมศิริวงศ์)" +" "+time
           
                    
 
           }; 
         reply(reToken, msg, sende_r, beacon_id);    
-         }else if(beacon_id == "01489fbe64"){
+         }else if(beacon_id == "014b5bacd7"){
+         var msg = {
+           "type": "text",
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 หจก.หลิมศิริวงษ์พาณิชย์ (ปั๊มหลิมศิริวงศ"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b611b9b"){
+         var msg = {
+           "type": "text",
+           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b61b4bb"){
+         var msg = {
+           "type": "text",
+           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b64fe43"){
+         var msg = {
+           "type": "text",
+           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b667011"){
+         var msg = {
+           "type": "text",
+           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b678737"){
+         var msg = {
+           "type": "text",
+           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b6f44f6"){
+         var msg = {
+           "type": "text",
+           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b733d54"){
+         var msg = {
+           "type": "text",
+           "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
+          }; 
+        reply(reToken, msg, sende_r, beacon_id);   
+         }else if(beacon_id == "014b7388e7"){
          var msg = {
            "type": "text",
            "text": "สวัสดีคุณ"+" " +name +" " + "ขณะนี้ระบบได้บันทึกข้อมูลการตรวจของคุณไว้แล้ว"
