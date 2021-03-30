@@ -113,7 +113,7 @@ var options = {
           if(beacon_id == "014b58a63f"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 หจก.หลิมศิริวงษ์พาณิชย์ (ปั๊มหลิมศิริวงศ์)"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ตลาดสดเทศบาล 2"
           
                    
           }; 
@@ -121,31 +121,31 @@ var options = {
          }else if(beacon_id == "014b5bacd7"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ร้านทองเซ่งเฮงล้ง"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ตลาดเก่าวังกรด"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b611b9b"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ร้านทองวิไล"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ตลาดสดเทศบาลตำบลหัวดง"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b61b4bb"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 สนามกีฬากลางจังหวัดพิจิตร"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 อุทยานบึงสีไฟ"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b64fe43"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 สหแสงชัย"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 สถานีขนส่งผู้โดยสารจังหวัดพิจิตร"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b667011"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 สถานีรถไฟพิจิตร"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 วัดท่าหลวง"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b678737"){
