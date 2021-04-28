@@ -110,48 +110,48 @@ var options = {
        
       
         
-          if(beacon_id == "014b58a63f"){
+          if(beacon_id == "014d610455"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ตลาดสดเทศบาล 2"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ธนาคารกรุงไทย แยกสากล"
           
                    
           }; 
         reply(reToken, msg, sende_r, beacon_id);    
-         }else if(beacon_id == "014b5bacd7"){
+         }else if(beacon_id == "014d62ad54"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ตลาดเก่าวังกรด"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ธนาคารกรุงไทย ถ.ราฎร์เกษมอุทิศ"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
-         }else if(beacon_id == "014b611b9b"){
+         }else if(beacon_id == "014d62b7a1"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ตลาดสดเทศบาลตำบลหัวดง"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ธนาคารกสิกรไทย ถ.ศรีมาลา"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
-         }else if(beacon_id == "014b61b4bb"){
+         }else if(beacon_id == "014d66b7ad"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 อุทยานบึงสีไฟ"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ธนาคารกรุงเทพ"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
-         }else if(beacon_id == "014b64fe43"){
+         }else if(beacon_id == "014d680fc9"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 สถานีขนส่งผู้โดยสารจังหวัดพิจิตร"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ร้านจุดนัดพบ"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
-         }else if(beacon_id == "014b667011"){
+         }else if(beacon_id == "014d6c9b0b"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 วัดท่าหลวง"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ร้านคร๊อกโคไดร๊อค"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
-         }else if(beacon_id == "014b678737"){
+         }else if(beacon_id == "014d6dacd3"){
          var msg = {
            "type": "text",
-           "text": "เมืองทราบ"+" " +name +" " + "ว.10 ร้าน ต.รวมกิจ"
+           "text": "เมืองทราบ"+" " +name +" " + "ว.10 หน้าโรงแรมพิจิตรพลาซ่า"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }else if(beacon_id == "014b6f44f6"){
